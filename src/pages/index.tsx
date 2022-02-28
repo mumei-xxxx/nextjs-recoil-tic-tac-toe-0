@@ -19,7 +19,6 @@ const Home: React.FC = () => {
         </h1> */}
 
         <Game />
-
       </main>
 
       <footer className={styles.footer}>

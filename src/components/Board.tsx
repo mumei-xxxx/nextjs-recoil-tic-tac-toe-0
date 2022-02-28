@@ -9,7 +9,6 @@ interface BoardPropsType {
  * @description 三目ならべの盤面のコンポーネント
  */
 export const Board: React.FC<BoardPropsType> = (props) => {
-
   const renderSquare = (i: number): JSX.Element => {
     return (
       <Square

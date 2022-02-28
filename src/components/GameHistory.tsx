@@ -7,7 +7,6 @@ import { calculateWinner } from '@/useCases/calculateWinner'
  * @description 三目ならべのゲーム履歴機能のコンポーネント
  */
 export const GameHistory: React.FC = () => {
-
   // ゲーム履歴の配列
   const historyArr: GameHistoryArrType = useRecoilValue(historyState)
 
@@ -32,7 +31,6 @@ export const GameHistory: React.FC = () => {
 
   // N手目に戻る。or ゲームを最初から始める。
   const moves: JSX.Element[] = historyArr.map((step, moveNumber: number) => {
-
     const description: string = moveNumber ? `Go to move #${moveNumber}` : 'Go to game start'
 
     return (

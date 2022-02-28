@@ -10,7 +10,6 @@ import { calculateWinner } from '@/useCases/calculateWinner'
  * @description 三目ならべのルートコンポーネント
  */
 export const Game: React.FC = () => {
-
   // ゲーム履歴の配列
   const historyArr: GameHistoryArrType = useRecoilValue(historyState)
   const setHistory: SetterOrUpdater<GameHistoryArrType> = useSetRecoilState(historyState)
