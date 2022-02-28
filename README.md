@@ -1,7 +1,7 @@
 # 概要
 
 個人開発です。
-以下が解説記事です。
+以下が記事で解説しております。
 
 Next.js + TypeScript + Recoil + Herp社ESLint Config でReactチュートリアルを作る。｜無名隱者 
 https://zenn.dev/purenium/articles/nextjs-recoil-tic-tac-toe
